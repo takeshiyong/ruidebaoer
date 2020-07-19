@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(249, 249, 249, 0.9);
+}
+
+/* 自定义列表样式 */
+.defaultTab {
+    width: 100%;
+    font-size: 14px!important;
+    border: 1px solid #E1E5E8;
+    color: #324057!important;
+    border-radius: 4px;
+}
+.defaultTab th {
+    border-right: 0px!important;
+    background: rgba(249,250,252,1)!important;
+    height: 35px;
+}
+.defaultTab th div{
+    background: rgba(249,250,252,1);
+    font-size: 14px!important;
+    color: #8D9BA4;
+    font-weight: 500;
+}
+.defaultTab::before {
+    height: 0px!important;
+}
+.defaultTab td {
+    height: 40px!important;
+    padding: 0px!important;
+}
+.defaultTab td, .defaultTab th.is-leaf {
+    border-bottom: 1px solid #E1E5E8;
+}
+.defaultTab tr:last-child td {
+    border-bottom: none;
+}
+.defaultTab th div .el-table__column-filter-trigger {
+    line-height: 40px!important;
+}
+
+/* 自定义分页 */
+.defaultPage {
+    text-align: right;
+    margin-top: 10px;
+}
+.defaultPage .el-input__inner {
+    border: none!important;
+    background: #F6F6F6!important;
+}
+
+/* 自定义详情表格 */
+.view-details-card {
+    box-shadow: none!important;
+    border-radius: 4px;
+}
+.view-details-row {
+    border-bottom: 1px solid #ECF5FF !important;
+}
+.field-name {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #dfe6ec;
+    font-size: 14px;
+}
+.field-context {
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 4px;
+    font-size: 14px;
+}
+.field-names {
+    text-align: center;
+    background: #dfe6ec;
+    line-height: 35px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.field-morecontext {
+    line-height: 35px;
+    text-align: left;
+    padding-left: 4px;
+    font-size: 14px;
+    margin-left: 16.66667%;
+    word-break: break-word;
+}
+
+/* 自定义search表单下输入框 */
+.search-form .el-form-item__label {
+    background: rgba(241,244,249,1);
+    text-align: center!important;
+    border: 1px solid #E1E5E8;
+    border-right: none;
+    color: #324057!important;
+    height: 36px!important;
+    line-height: 36px!important;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 0px!important;
+}
+.search-form .input-father .el-input__inner, .search-form .input-picker {
+    border: 1px solid #E1E5E8!important;
+    border-left: none!important;
+    border-radius: 0!important;
+    height: 36px!important;
+    line-height: 36px!important;
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important;
+}
