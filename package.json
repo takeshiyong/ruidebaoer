@@ -16,7 +16,7 @@
     "element-ui": "^2.10.1",
     "html2canvas": "^1.0.0-rc.3",
     "lodash": "^4.17.14",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "qrcodejs2": "0.0.2",
     "sortablejs": "^1.10.0-rc3",
     "vue": "^2.6.10",
